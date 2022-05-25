@@ -2,7 +2,7 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 
-new_df = pd.read_excel('../datos/eidata.xlsx')
+new_df = pd.read_excel('./eidata.xlsx')
 
 t1 = new_df[['toma_decisiones',
     'grit', 'escrupulosidad', 'amabilidad', 'apertura','extroversion', 'estabilidad', 'index_igualdad', 'moment'
